@@ -4,5 +4,3 @@ sequenceDiagram
     Attacker->>+Firewall: Firewall, Trust this link?
     Firewall-->>-Attacker: prove your authentication
     Firewall-->>-Attacker: your authentication failed! Access denied
-
-    ```
